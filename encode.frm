@@ -62,7 +62,6 @@ Dim rs As DAO.Recordset
 End Sub
 
 
-p = txtP.Text
 Dim conn As New ADODB.Connection
 conn.Open "connection string"
 
